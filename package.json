@@ -1,0 +1,19 @@
+{
+  "name": "sendmail-tools",
+  "version": "1.0.0",
+  "description": "Outil web local pour gérer des campagnes d'emails de prospection (envoi progressif ou en masse) à partir d'un fichier Excel.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "nodemailer": "^6.10.1"
+  }
+}
